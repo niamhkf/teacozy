@@ -1,0 +1,166 @@
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity:0.9;
+  text-align: center;
+}
+
+/* Header */
+
+header{
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 2;
+  background-color: black;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  padding: 10px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 68%;
+}
+
+nav span{
+  text-decoration: underline;
+  display: inline-block;
+  padding: 10px 10px;
+}
+
+a{
+  color: seashell;
+}
+
+/* Main Section */
+
+.main{
+  position: relative;
+  top: 84px;
+  display: flex;
+  align-items: center;
+  width: 1200px;
+  height: 700px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mission{
+  background-color: black;
+  display: inline-flex;
+  flex-direction: column;
+  width: 1200px;
+  height: 100px;
+  height: auto;
+}
+
+.h2{
+  font-weight: bold;
+  font-size: 32px;
+  padding: 10px;
+}
+
+.h4{
+  font-weight: bold;
+  padding: 10px;
+}
+
+/* Teas of the Month section */
+
+.title{
+  padding-top: 134px;
+}
+
+.teas{
+  display: inline-flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-wrap: wrap;
+  width:1060px;
+  align-content: center;
+  padding-bottom: 50px;
+}
+
+.teas .text{
+  font-weight: bold;
+  position: relative;
+  bottom: 10px;
+}
+
+.boxes{
+  width: 300px;
+  height: 200px;
+  border-right: 15px solid black;
+  border-left: 15px solid black;
+}
+
+/* Location */
+
+.location{
+  dislpay: flex;
+  justify-content: center;
+  height: 500px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.location-background{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  width: 1200px;
+  height: 500px;
+  padding-top: 50px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.addresses{
+  padding-left: 110px;
+  position: relative;
+  bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 980px;
+}
+
+.address-box{
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  display: block;
+  opacity: 1;
+}
+
+.address-box p{
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+/* Footer */
+
+footer {
+  display: fixed;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contacts{
+  padding-top: 30px;
+  height: 200px;
+}
+
+
+#copyright{
+  text-align: left;
+  padding-left: 20px;
+}
